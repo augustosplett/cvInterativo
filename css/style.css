@@ -1,0 +1,201 @@
+:root{
+    --cor-primaria: gray;
+    --cor-segundaria: white;
+}
+
+body, h1, h2, h3 {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    text-align: center;
+}
+
+p,h4, h5{
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    text-align: justify; 
+}
+
+div.container{
+    display: table;
+    width: 100%;
+    background-color: var(--cor-primaria);
+}
+
+div.barra-lateral{
+    color: var(--cor-segundaria);
+    background-color: var(--cor-primaria);
+    width: 30%;
+    height: auto;
+    display: table-column;
+    float: left;
+    position: relative;
+    max-width: 350px;
+  
+}
+div.texto-caixa-cor-segundaria{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: solid;
+    border-color: var(--cor-segundaria);
+    text-align: center;
+
+    font-weight: bold;
+    position: relative;
+}
+
+div.texto-sem-caixa{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    position: relative;
+}
+
+div.corpo-conteudo{
+    color: var(--cor-primaria);
+    background-color: var(--cor-segundaria);
+    width: 70%;
+    display: table-column;
+    height: auto;
+    float: left;
+    max-width: 900px;
+}
+
+img.foto-perfil{
+    border-radius: 150px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: var(--cor-segundaria);
+  }
+  
+  /* Slides */
+  .mySlides {
+    min-height: 10vw;
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev {
+    position: absolute;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 5px;
+    background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  li {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: coral;
+    color: white;
+  }
+
+  .fa-medium {
+    background: black;
+    color: white;
+  }
+
+
+
+div.footer{
+    text-align: left;
+    background-color: var(--cor-primaria);
+}
+
+q{
+    color: white;
+    text-align: center;
+    float:right;
+}
